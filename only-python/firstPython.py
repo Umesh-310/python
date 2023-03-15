@@ -108,11 +108,11 @@ else:
     print('less than 14')
 
 
-/////////////////////////////////////////////////////////
+# /////////////////////////////////////////////////////////
 
-== || in python there is no === :(
-and  || there is no & :(
-or || there is no || :(
+# == || in python there is no === :(
+# and  || there is no & :(
+# or || there is no || :(
 
 name,age = input('Enter youre name and age:- ').split()
 
@@ -176,6 +176,24 @@ for i in range(len(n)):
        print(f'# {n[i]} : {n.count(n[i])}')
        ts += n[i]
 
+import random
+for i in range(1,10 ,2):
+    print(random.randint(1,10) , i)
+
+for i in "Aditi Pathak":
+    print(i)
+
 
 """
 
+"""
+CHAPTER 3
+
+def add(a,b,c):
+    return a+b+c
+
+print(add(2,2,2))
+
+
+
+"""
