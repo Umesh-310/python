@@ -1,0 +1,28 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {% comment %} <h1>Hello {{ first_name | lower }}</h1>
+    <h1>Hello {{ first_name | upper }}</h1>
+    <h1>Hello {{ first_name | title }}</h1>
+    <h1>Hello {{ first_name | capfirst }}</h1>
+    <h1>Hello {{ first_name | lower | title }}</h1>
+    <h1>Hello {{ first_name | length }}</h1>
+    {% for name in names %}
+    <h1>hello {{ name }}</h1>
+    {% endfor %} {% endcomment %}
+
+    <h1>example</h1>
+    <h2>
+    <a  href= "{% url 'my_app:variable' %}" > 
+        go to variable 
+    </a>
+    </h2>
+
+  </body>
+</html>

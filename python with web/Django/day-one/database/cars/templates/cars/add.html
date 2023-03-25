@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content %}
+
+<h1>ADD</h1>
+<div>
+  <h3>Add A new car:</h3>
+  <form action="" method="post">
+    {% csrf_token %}
+    <!-- {% csrf_token %} -->
+    <div>
+      <label for="brand">Brand</label>
+      <input type="text" id="brand" name="brand" />
+    </div>
+    <div>
+      <label for="year">Year</label>
+      <input type="text" id="year" name="year" />
+    </div>
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+</div>
+{% endblock %}

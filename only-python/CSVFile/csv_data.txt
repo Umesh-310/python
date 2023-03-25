@@ -1,0 +1,5 @@
+fname,lname,age,address
+Aku,Saini,22,Pipliya
+Umesh,Saini,21,Pipliya
+Aditi,Pathak,22,Mandsour
+Kundan,Rao,22,Majersa

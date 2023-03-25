@@ -1,0 +1,16 @@
+{
+    "friend" : [
+        {
+            "name" : "Umesh",
+            "Age" : 22
+        },
+        {
+            "name" : "Aku",
+            "Age" : 22
+        },
+        {
+            "name" : "Moon",
+            "Age" : 22
+        }
+    ]       
+}
